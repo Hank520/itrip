@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="itripautho:war exploded">
+    <output-path>$PROJECT_DIR$/itripautho/target/itrip-auho</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="itripautho" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/itripautho/target/itrip-auho/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="itripautho/web/Web" />
+      <element id="javaee-facet-resources" facet="itripauth/web/Web" />
+    </root>
+  </artifact>
+</component>

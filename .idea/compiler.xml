@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="itripauth" />
+        <module name="itripbeans" />
+        <module name="itripbiz" />
+        <module name="itripdao" />
+        <module name="itripsearch" />
+        <module name="itriptop" />
+        <module name="itriptrade" />
+        <module name="itriputils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="itripauth" target="1.7" />
+      <module name="itripautho" target="1.7" />
+      <module name="itripbeans" target="1.7" />
+      <module name="itripbiz" target="1.7" />
+      <module name="itripdao" target="1.7" />
+      <module name="itrippro" target="1.5" />
+      <module name="itripsearch" target="1.7" />
+      <module name="itriptop" target="1.7" />
+      <module name="itriptrade" target="1.7" />
+      <module name="itriputils" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
